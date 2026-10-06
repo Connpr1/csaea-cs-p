@@ -46,4 +46,9 @@ print(x, "\n")
 # Y variable 
 print(y)
 y = "A number used everyday in between 33 and 35"
-print("{y} \n")
+print(y, "\n")
+
+# Z variable
+print(z)
+z = " An everyday worker that helps advance technology and without them we wouldn't have computers or the internet"
+print(z)
