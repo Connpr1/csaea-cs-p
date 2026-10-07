@@ -64,9 +64,7 @@ print(f"Your total is ${total}")
 # Bonus use conditional to print if even or odd
 
 challenge = 57
-odd = [51, 53, 55, 57, 59]
-even = [50, 52, 54, 56, 58]
-if challenge == even:
-    print("Even")
-elif challenge == odd:
+if challenge % 2 == 1:
     print("Odd")
+else:
+    print("Even")
