@@ -1,3 +1,5 @@
+import math
+
 # USER INPUT IN PYTHON
 #print("PROMT")
 # print()
@@ -22,22 +24,34 @@
 
 #Challenge 1
 
-color_fav = input("Enter your favorite color:")
-print(f"Your favorite color is {color_fav}")
+# color_fav = input("Enter your favorite color:")
+# print(f"Your favorite color is {color_fav}")
 
-#Challenge 2
+# #Challenge 2
 
-num_1 = input("Pick a number between 1 and 10: ")
+# num1 = int(input("Pick a number between 1 and 10: "))
 
-num_2 = input("Pick another number: ")
-#final_num = num_1  num_2
-print(f"Both your numbers equal {num_1 (+) num_2}")
+# num2 = int(input("Pick another number: "))
+# #final_num = num_1  num_2
+# print(f"Both your numbers equal {num1 + num2}")
 
 
-#Challenge 3: Circle Area from User Input
-# Ask the user for the diameter of a circle, then calculate and print the area.
-# pi radius squared 
+# #Challenge 3: Circle Area from User Input
+# # Ask the user for the diameter of a circle, then calculate and print the area.
+# # pi radius squared 
+
+# diameter = int(input("Enter diameter:"))
+# raduios = diameter / 2
+# area_circle = math.pi * raduios ** 2
+# print(f"Area of circle is {area_circle}")
+
 
 # Challenge 4: Custom Die Roll
 # Ask the user to enter how many sides the die should have.
 # Then simulate rolling the die once and print the result.
+
+import random
+
+dice_sides = int(input("How many sided dice: "))
+roll = random.randint(1, dice_sides)
+print(roll)

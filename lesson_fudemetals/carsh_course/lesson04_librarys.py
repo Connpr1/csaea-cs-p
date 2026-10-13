@@ -84,7 +84,7 @@ print("You rolled a", roll, "\n\n")
 
 num = random.randint(1, 75)
 numsqrt = math.sqrt(num)
-print(math.ceil(numsqrt)"\n\n")
+print(math.ceil(numsqrt), "\n\n")
 
 
 #Challenge 4
