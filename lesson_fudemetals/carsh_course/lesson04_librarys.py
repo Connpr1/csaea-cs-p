@@ -35,9 +35,9 @@ print("Area of Circle:", circle_area)
 # Use math library to round the float UP to an integer. 
 # BONUS CHALLENGE: Make your random number output between 1 and 10. 
 
-seed = 223.12
+seed = 162.59
 seed1 = seed * 40
 seed2 = seed1 / 2
-seed3 = seed2 % 10
+seed3 = seed2 - 1000
 seed_randomized = math.ceil(seed3)
 print(seed_randomized)
