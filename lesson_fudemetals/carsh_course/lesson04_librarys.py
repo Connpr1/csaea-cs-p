@@ -35,9 +35,59 @@ print("Area of Circle:", circle_area)
 # Use math library to round the float UP to an integer. 
 # BONUS CHALLENGE: Make your random number output between 1 and 10. 
 
-seed = 162.59
-seed1 = seed * 40
-seed2 = seed1 / 2
-seed3 = seed2 - 1000
-seed_randomized = math.ceil(seed3)
-print(seed_randomized)
+##seed = 162.59
+#seed1 = seed * 40
+#seed2 = seed1 / 2
+#seed3 = seed2 - 1000
+#seed_randomized = math.ceil(seed3)
+#print(seed_randomized)
+
+# ANSWERE:
+seed = 23436
+
+for n in range(5):
+    calcs = seed + 223 * 7 / 7
+    print(calcs)
+    randint = math.ceil(calcs)
+    print(f"Simple random number gen: {randint % 10}")
+    seed += 1
+
+# Python random library
+
+import random
+
+random_intiger = random.randint(1,100)
+print("Random Intiger:", random_intiger)
+
+random_float = random.random()
+print("Random float:", random_float)
+
+my_list = ["taco", "burrito", "enchilada", "quesadilla"]
+
+random_selection = random.choice(my_list)
+print(random_selection)
+
+random.shuffle(my_list)
+print(my_list, "\n\n")
+
+# Challenge 2
+
+die_roll = [1, 2, 3, 4, 5, 6]
+
+random.shuffle(die_roll)
+
+roll = random.choice(die_roll)
+
+print("You rolled a", roll, "\n\n")
+
+#Challenge 3
+
+num = random.randint(1, 75)
+numsqrt = math.sqrt(num)
+print(math.ceil(numsqrt)"\n\n")
+
+
+#Challenge 4
+
+dice_roll_1 = random.randint(1,6)
+dice_roll_2 = random.randint(1,6)
