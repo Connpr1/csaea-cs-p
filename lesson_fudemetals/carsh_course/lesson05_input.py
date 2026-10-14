@@ -54,4 +54,4 @@ import random
 
 dice_sides = int(input("How many sided dice: "))
 roll = random.randint(1, dice_sides)
-print(roll)
+print(f"You rolled: {roll}")
