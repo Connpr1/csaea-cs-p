@@ -38,18 +38,52 @@ print('\n')
 
 # Challenge 1
 
-quote = input("Insert quote:")
-length_quote = len(quote)
-print(f"{quote}""\nThe length of your quote is ", (length_quote), "\n")
+# quote = input("Insert quote:")
+# length_quote = len(quote)
+# print(f"{quote}""\nThe length of your quote is ", (length_quote), "\n")
 
-# Challenge 2
+# # Challenge 2
 
-word = input("Seven character word here:")
-print("2nd through 6th letters are:", word[1:6])
+# word = input("Seven character word here:")
+# print("2nd through 6th letters are:", word[1:6])
 
-# Challenge 3
+# # Challenge 3
 
-first_name = input("Enter first name:")
-last_name = input(" Enter last name:")
+# first_name = input("Enter first name:")
+# last_name = input(" Enter last name:")
 
-print(f"Your full name is: {last_name}, {first_name}")
+# print(f"Your full name is: {last_name}, {first_name}")
+
+character = "Mr.. CrAb$"
+print("\nLowercase:", character.lower())
+print("Uppercase:", character.upper())
+print("Capatillize first letter:", character.capitalize())
+print("Title format:", character.title())
+
+print()
+
+# Find and replace text
+sentence = "Im a goofy goober"
+new_sentence = sentence.replace("Im", "You're")
+print(sentence)
+print(new_sentence)
+
+# Join and Split
+groceries = "milk,eggs,bread,butter,peanuts"
+print("\nOriginal string:", groceries)
+
+# Split the string into a Python list, based on a 'delimiter'
+items = groceries.split(",")
+print(items)
+
+# Join a list together into a string
+joined = " and ".join(items)
+print(joined)
+
+#Challenge 3.5
+
+word = input(" Input a word:")
+print("Your word is:", word)
+print("Your word lowercase is:", word.lower())
+print("Your word uppercase is:", word.upper())
+print("Word backwords is:", word[::-1])
