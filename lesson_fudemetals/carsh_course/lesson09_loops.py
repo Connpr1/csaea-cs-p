@@ -80,5 +80,5 @@ for i in range(1,11):
 # Challenge 2
 user_input = ""
 while user_input != "7":
-    user_input = input("Pick a number:"):
+    user_input = input("Pick a number:")
     

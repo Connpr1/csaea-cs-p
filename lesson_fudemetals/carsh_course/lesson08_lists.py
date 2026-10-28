@@ -57,6 +57,13 @@ print(animals)
 # # Add three items of your choice using `.append()`.
 # # Then insert one extra item at the second position and remove one item of your choice.
 # # Finally, print the final shopping list.
+shopping = []
+shopping.append(""Chicken", "Milk", "Eggs"")
+print("Shopping", shopping)
+shopping.remove("Milk")
+shopping.insert("Ketchup", 1)
+print("Shopping:", shopping)
+
 print()
 
 nums = [3, 7, 1, 9, 4, 2, 5, 8, 6, 0]
