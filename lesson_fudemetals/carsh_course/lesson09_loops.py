@@ -78,7 +78,13 @@ for i in range(1,11):
     print("Number:", i)
 
 # Challenge 2
-user_input = ""
-while user_input != "7":
-    user_input = input("Pick a number:")
+# user_input = ""
+# while user_input != "7":
+#     user_input = input("Pick a number:")
+
+count = 0 
+for letter in "Pineapple":
+    if letter in "aeiou":
+        count += 1
+        print(count)
     
