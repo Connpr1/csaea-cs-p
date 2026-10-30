@@ -59,10 +59,45 @@ print()
 # Challenge 1 make  doubler that doubles the number the amount of times and than puts them in a list.
 
 def doubler(num,time):
-    num = int(5)
-    time = int(10)
-    for i in num and time:
-        num * 1 
-        
+    doubled_numbers = []
 
-    
+    for n in range(time):
+        num = num * 2
+        doubled_numbers.append(num)
+        print(doubled_numbers)
+
+    print(doubled_numbers)
+    return doubled_numbers
+doubler(1, 5)
+
+# Challenge 2 Calculator
+def sub (c,d):
+    print(c - d)
+    return c - d
+sub(2,1)
+
+def mult (a,d):
+    print(a * d)
+    return a * d
+mult(3,6)
+
+def div (e,f):
+    print(e / f)
+    return e / f
+div(6,2)
+
+#Challenge 3 Average
+
+def avg (a,b,c,d,e):
+    sum = a + b + c + d + e
+    quot = sum / 5
+    print(f"The average is: {quot}")
+    return avg
+avg(2,5,6,7,2)
+
+even_odd = int(input("input one number:"))
+
+if even_odd % 2 == 1:
+    print("odd")
+else:
+    print("even")
